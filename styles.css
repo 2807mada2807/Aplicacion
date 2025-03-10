@@ -1,0 +1,111 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #FFC0CB; /* Rosa claro */
+    color: #8B008B; /* Morado oscuro */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Botones generales */
+.botones, .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn, button {
+    background-color: #FF69B4; /* Rosa fuerte */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    background-color: #FF1493; /* Rosa más intenso */
+}
+
+/* Inputs */
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FF1493;
+    border-radius: 5px;
+    background-color: #FFC0CB;
+    text-align: center;
+}
+
+/* Estilo del temporizador */
+#timer {
+    font-size: 48px;
+    color: #8B008B;
+}
+
+/* Estilo de la calculadora */
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFB6C1; /* Rosa pastel */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.calculadora input {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    border: 2px solid #FF1493;
+    border-radius: 5px;
+    background-color: #FFC0CB;
+}
+
+.teclas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    gap: 10px;
+}
+
+.teclas button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #FF69B4; /* Rosa fuerte */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.teclas button:hover {
+    background-color: #FF1493; /* Rosa más intenso */
+}
+
+/* Estilo del conversor */
+.contenedor {
+    background-color: #FFB6C1; /* Rosa pastel */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contenedor p {
+    font-size: 18px;
+    color: #8B008B; /* Morado oscuro */
+}
